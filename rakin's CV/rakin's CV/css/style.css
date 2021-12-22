@@ -1,0 +1,41 @@
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.skills {
+    text-align: right;
+    color: white;
+  }
+  
+.chash {width: 90%; background-color: black}
+.oracle {width:80%; background-color: black;}
+.cplus {width: 80%; background-color: black;}
+.Python {width: 60%; background-color: black;}
+.c {width: 85%; background-color: black;}
+.html {width: 90%; background-color: black;}
+.uml {width: 80%; background-color: black;}
+.atricle {width: 90%; background-color: black;}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid black;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+.main-heading {
+  background-color: #dddddd;
+  
+}

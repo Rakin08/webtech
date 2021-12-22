@@ -1,0 +1,42 @@
+       .a-buttons {
+            text-decoration: none;
+            color: white;
+            background-color: black;
+            padding: 7px 13px;
+            border-radius: 5px;
+            font-weight: bold;
+            border: 1px solid black;
+        }
+
+        .a-buttons:hover {
+            color: black;
+            background-color: white;
+        }
+
+        .full-container {
+            width: 95%;
+            max-width: 550px;
+            background-color: white;
+            margin: auto;
+            margin-top: 50px;
+            padding: 30px;
+            padding-left: 0px;
+            padding-right: 60px;
+            border-radius: 15px;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 15px;
+            text-decoration: underline;
+        }
+
+        .worker-image {
+            text-align: center;
+            margin-bottom: 15px;
+            margin-right: -60px;
+        }
+
+        .worker-image img {
+            width: 70%;
+        }

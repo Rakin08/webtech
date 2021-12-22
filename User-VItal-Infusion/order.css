@@ -1,0 +1,128 @@
+
+.logo{
+    display: flex;  
+}
+.logo-name{
+    font-weight: bold;
+    font-size: 35px;
+    display: inline-block;
+    margin-top: 40px;
+}
+li {
+    list-style: none;
+}
+li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    padding: 8px 15px;
+}
+li a:hover{
+    background-color: #289bf3;
+    color: white;
+    border-radius: 5px;
+}
+ul {
+    display: flex;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav {
+    background-color: white;
+    width: 100%;
+    height: 70px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo-image{
+    height: 80px;
+    margin-top: 30px  ;
+    margin-left: 20px;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.login-form{
+    background-color: white;
+    width: 95%;
+    max-width: 450px;
+    margin: auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+}
+
+.login-image{
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    font-weight: 900;
+    text-decoration: underline;
+    color: #289bf3;
+    margin-top: -30px;
+}
+
+.button-container {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.submit-button{
+    padding: 7px 22px;
+    font-weight: bold;
+    font-size: 16px;
+    border: 2px solid #289bf3;
+    background-color: #289bf3;
+    border-radius: 5px;
+    color: white;
+    margin: auto;
+}
+
+.submit-button:hover{
+    background-color: white;
+    color: #289bf3;
+}
+
+.text-button{
+    text-align: center;
+    margin-top: 25px;
+}
+
+.text-button a {
+    color: #289bf3;
+    font-weight: bold;
+}
+
+.checkbox-container{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+
+.input-field {
+    width: 97%;
+    margin-top: 5px;
+    padding: 7px;
+    border: 1.5px solid rgba(0, 0, 0, 0.733);
+    border-radius: 3px;
+}
